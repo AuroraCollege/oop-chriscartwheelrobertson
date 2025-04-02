@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Test for output from car.py
         setup-command: ''
-        command: python car.py
+        command: "./python car.py"
         input: ''
         expected-output: "[\\S\\s]+[\\S]+"
         comparison-method: regex
